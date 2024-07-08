@@ -3,6 +3,7 @@ import logging
 from pathlib import Path
 from venv import logger
 
+import allure
 import pytest
 from playwright.sync_api import sync_playwright
 from utils import ReadConfigurations
@@ -30,3 +31,7 @@ def setup_and_teardown():
         yield page
         browser.close()
 
+
+def attach_screenshot(page, name="Screenshot"):
+    screenshot = page.screenshot()
+    allure.attach(screenshot, name=name, attachment_type=allure.attachment_type.PNG)

@@ -92,6 +92,7 @@ class UploadInvoicePage(BasePage):
             self.get_element('invoice_icon').get_by_role("img").click()
             self.get_element('nav_invoices').click()
             self.get_element('search_field').fill(keyword)
+            time.sleep(3)
             self.page.keyboard.press('Enter')
         except (TimeoutError, Error) as e:
             print(f"Invoice search failed: {e}")
