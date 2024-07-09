@@ -1,8 +1,0 @@
-Invoice upload failed: Locator.click: Timeout 30000ms exceeded.
-Call log:
-waiting for locator("//span[contains(text(), 'Indigo Client')]")
-
-Test 'add_invoice' failed: Locator.click: Timeout 30000ms exceeded.
-Call log:
-waiting for locator("//span[contains(text(), 'Indigo Client')]")
-

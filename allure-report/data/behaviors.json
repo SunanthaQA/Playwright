@@ -1,17 +1,42 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
+    "name" : "test_login_with_invalid_email_address",
+    "uid" : "9a4eaa0dd7916f5b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1720514967658,
+      "stop" : 1720514967658,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_verify_created_invoice_status",
+    "uid" : "86e878ad4eeb7d2b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1720515210279,
+      "stop" : 1720515210279,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "Login with valid credentials",
     "children" : [ {
       "name" : "test_login_with_valid_credentials",
-      "uid" : "fe742a05408ae785",
+      "uid" : "1e163c0e5be7b18",
       "parentUid" : "3f11cc62bf4b7231282163139d88bc4c",
       "status" : "passed",
       "time" : {
-        "start" : 1720458448234,
-        "stop" : 1720458449785,
-        "duration" : 1551
+        "start" : 1720515224902,
+        "stop" : 1720515225809,
+        "duration" : 907
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,13 +47,13 @@
     "name" : "Login with invalid email address",
     "children" : [ {
       "name" : "test_login_with_invalid_email_address",
-      "uid" : "95f0189c16b6b1bd",
+      "uid" : "a7dc3cfa1dcff3a",
       "parentUid" : "618fbb3af3b0d692e6756f2661090941",
       "status" : "passed",
       "time" : {
-        "start" : 1720458463924,
-        "stop" : 1720458464854,
-        "duration" : 930
+        "start" : 1720515232869,
+        "stop" : 1720515233595,
+        "duration" : 726
       },
       "flaky" : false,
       "newFailed" : false,
@@ -39,13 +64,13 @@
     "name" : "Login with invalid password",
     "children" : [ {
       "name" : "test_login_with_invalid_password",
-      "uid" : "fa28e402db87f36d",
+      "uid" : "a5ae6b55834c910a",
       "parentUid" : "73c0a19f54824583b1f946ed4c11bb8d",
       "status" : "passed",
       "time" : {
-        "start" : 1720458469648,
-        "stop" : 1720458470610,
-        "duration" : 962
+        "start" : 1720515238958,
+        "stop" : 1720515239728,
+        "duration" : 770
       },
       "flaky" : false,
       "newFailed" : false,
@@ -56,13 +81,13 @@
     "name" : "Required validation",
     "children" : [ {
       "name" : "test_required_validation",
-      "uid" : "bf7e5bfe64a28e12",
+      "uid" : "2fcff85d16bd8e13",
       "parentUid" : "b9a36029986f149f48dcec4a94cada6d",
       "status" : "passed",
       "time" : {
-        "start" : 1720458476486,
-        "stop" : 1720458476967,
-        "duration" : 481
+        "start" : 1720515246536,
+        "stop" : 1720515246944,
+        "duration" : 408
       },
       "flaky" : false,
       "newFailed" : false,
@@ -73,13 +98,13 @@
     "name" : "Add Invoice",
     "children" : [ {
       "name" : "test_add_invoice",
-      "uid" : "1bfd159a37e08175",
+      "uid" : "ed5364bd7686fef2",
       "parentUid" : "ed7a0ac893d8b21b7dd20297e44f5178",
       "status" : "passed",
       "time" : {
-        "start" : 1720458498817,
-        "stop" : 1720458508475,
-        "duration" : 9658
+        "start" : 1720515252779,
+        "stop" : 1720515263760,
+        "duration" : 10981
       },
       "flaky" : false,
       "newFailed" : false,
@@ -90,13 +115,13 @@
     "name" : "Search created Invoice",
     "children" : [ {
       "name" : "test_verify_created_invoice_status",
-      "uid" : "77e0af0a88c8e11d",
+      "uid" : "b82f0f5157c7b1c1",
       "parentUid" : "1213c19311e144df4b91acd853fab25b",
       "status" : "passed",
       "time" : {
-        "start" : 1720458514407,
-        "stop" : 1720458524265,
-        "duration" : 9858
+        "start" : 1720515269618,
+        "stop" : 1720515278900,
+        "duration" : 9282
       },
       "flaky" : false,
       "newFailed" : false,
@@ -107,18 +132,19 @@
     "name" : "Delete created Invoice",
     "children" : [ {
       "name" : "test_verify_invoice_delete_status",
-      "uid" : "9a19a1af8a03886",
+      "uid" : "4c9b4a9ec137516e",
       "parentUid" : "cb3d7368bc61616059b3efe762b8b5ef",
       "status" : "passed",
       "time" : {
-        "start" : 1720458530539,
-        "stop" : 1720458541579,
-        "duration" : 11040
+        "start" : 1720515285259,
+        "stop" : 1720515297233,
+        "duration" : 11974
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "cb3d7368bc61616059b3efe762b8b5ef"
-  } ]
+  } ],
+  "name" : "behaviors"
 }
