@@ -1,0 +1,12 @@
+Confirmation message verification failed: Locator expected to have text 'Invoice Uploaded successfully'
+Actual value: <element(s) not found> 
+Call log:
+LocatorAssertions.to_have_text with timeout 5000ms
+  - waiting for locator("//span[@class='alert-message']")
+
+Test 'add_invoice' failed: Locator expected to have text 'Invoice Uploaded successfully'
+Actual value: <element(s) not found> 
+Call log:
+LocatorAssertions.to_have_text with timeout 5000ms
+  - waiting for locator("//span[@class='alert-message']")
+

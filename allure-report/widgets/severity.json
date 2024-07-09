@@ -1,0 +1,71 @@
+[ {
+  "uid" : "9a19a1af8a03886",
+  "name" : "test_verify_invoice_delete_status",
+  "time" : {
+    "start" : 1720458530539,
+    "stop" : 1720458541579,
+    "duration" : 11040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77e0af0a88c8e11d",
+  "name" : "test_verify_created_invoice_status",
+  "time" : {
+    "start" : 1720458514407,
+    "stop" : 1720458524265,
+    "duration" : 9858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bfd159a37e08175",
+  "name" : "test_add_invoice",
+  "time" : {
+    "start" : 1720458498817,
+    "stop" : 1720458508475,
+    "duration" : 9658
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa28e402db87f36d",
+  "name" : "test_login_with_invalid_password",
+  "time" : {
+    "start" : 1720458469648,
+    "stop" : 1720458470610,
+    "duration" : 962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe742a05408ae785",
+  "name" : "test_login_with_valid_credentials",
+  "time" : {
+    "start" : 1720458448234,
+    "stop" : 1720458449785,
+    "duration" : 1551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf7e5bfe64a28e12",
+  "name" : "test_required_validation",
+  "time" : {
+    "start" : 1720458476486,
+    "stop" : 1720458476967,
+    "duration" : 481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95f0189c16b6b1bd",
+  "name" : "test_login_with_invalid_email_address",
+  "time" : {
+    "start" : 1720458463924,
+    "stop" : 1720458464854,
+    "duration" : 930
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

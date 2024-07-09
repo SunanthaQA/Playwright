@@ -10,7 +10,8 @@ from tests.validationtexts import ValidationTexts
 from utils import ExcelUtils
 
 
-#@allure.feature('Invoice Tests')
+# @allure.feature('Invoice Tests')
+@allure.severity(allure.severity_level.CRITICAL)
 @allure.story('Add Invoice')
 def test_add_invoice(setup_and_teardown) -> None:
     page = setup_and_teardown
@@ -48,6 +49,7 @@ def test_add_invoice(setup_and_teardown) -> None:
         pytest.fail(f"Failed to add invoice: {str(e)}")
 
 
+@allure.severity(allure.severity_level.MINOR)
 @allure.story('Search created Invoice')
 def test_verify_created_invoice_status(setup_and_teardown) -> None:
     page = setup_and_teardown
@@ -77,6 +79,7 @@ def test_verify_created_invoice_status(setup_and_teardown) -> None:
             pytest.fail(f"Failed to verify created invoice status: {str(e)}")
 
 
+@allure.severity(allure.severity_level.NORMAL)
 @allure.story('Delete created Invoice')
 def test_verify_invoice_delete_status(setup_and_teardown) -> None:
     page = setup_and_teardown

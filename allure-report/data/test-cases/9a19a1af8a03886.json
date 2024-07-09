@@ -1,0 +1,294 @@
+{
+  "uid" : "9a19a1af8a03886",
+  "name" : "test_verify_invoice_delete_status",
+  "fullName" : "tests.test_Upload_invoice#test_verify_invoice_delete_status",
+  "historyId" : "9060090de2a57dc8e145cf72124402e7",
+  "time" : {
+    "start" : 1720458530539,
+    "stop" : 1720458541579,
+    "duration" : 11040
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1720458442156,
+      "stop" : 1720458442156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1720458442156,
+      "stop" : 1720458442156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1720458442156,
+      "stop" : 1720458442156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_and_teardown",
+    "time" : {
+      "start" : 1720458524347,
+      "stop" : 1720458530538,
+      "duration" : 6191
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1720458442156,
+      "stop" : 1720458442156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login and delete invoice",
+      "time" : {
+        "start" : 1720458530626,
+        "stop" : 1720458541579,
+        "duration" : 10953
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cf61c2862ad58c71",
+        "name" : "Input Username",
+        "source" : "cf61c2862ad58c71.txt",
+        "type" : "text/plain",
+        "size" : 43
+      }, {
+        "uid" : "e5688d94a8036dbd",
+        "name" : "Input Password",
+        "source" : "e5688d94a8036dbd.txt",
+        "type" : "text/plain",
+        "size" : 22
+      }, {
+        "uid" : "92f341e8b0ffbd51",
+        "name" : "Invoice Number",
+        "source" : "92f341e8b0ffbd51.txt",
+        "type" : "text/plain",
+        "size" : 28
+      }, {
+        "uid" : "9d947a3d93268c9e",
+        "name" : "Invoice Deletion Success",
+        "source" : "9d947a3d93268c9e.png",
+        "type" : "image/png",
+        "size" : 134564
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup_and_teardown::0",
+    "time" : {
+      "start" : 1720458541581,
+      "stop" : 1720458541663,
+      "duration" : 82
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Delete created Invoice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Upload_invoice"
+  }, {
+    "name" : "host",
+    "value" : "laptop-obs-156"
+  }, {
+    "name" : "thread",
+    "value" : "198564-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_Upload_invoice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bc267a4fe4d14fd3",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed\nCall log:\nnavigating to \"https://www.tig-test.com/auth/login\", waiting until \"load\"",
+      "time" : {
+        "start" : 1720458326310,
+        "stop" : 1720458326310,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e7e4ac88815feeba",
+      "status" : "broken",
+      "statusDetails" : "RuntimeError: No active exception to reraise",
+      "time" : {
+        "start" : 1720458120300,
+        "stop" : 1720458129265,
+        "duration" : 8965
+      }
+    }, {
+      "uid" : "b4baec7e51b57be1",
+      "status" : "broken",
+      "statusDetails" : "RuntimeError: No active exception to reraise",
+      "time" : {
+        "start" : 1720458003447,
+        "stop" : 1720458010469,
+        "duration" : 7022
+      }
+    }, {
+      "uid" : "dfc5290196baffcf",
+      "status" : "broken",
+      "statusDetails" : "RuntimeError: No active exception to reraise",
+      "time" : {
+        "start" : 1720457833004,
+        "stop" : 1720457839961,
+        "duration" : 6957
+      }
+    }, {
+      "uid" : "4002123cd3a83328",
+      "status" : "broken",
+      "statusDetails" : "RuntimeError: No active exception to reraise",
+      "time" : {
+        "start" : 1720457546281,
+        "stop" : 1720457554907,
+        "duration" : 8626
+      }
+    }, {
+      "uid" : "e4431c3511974eaa",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.Error: Locator.click: Error: strict mode violation: locator(\"//mat-icon[@class='mat-icon notranslate rebrand-icon gray material-icons-outlined material-icons mat-ligature-font mat-icon-no-color' and text()=' delete']\") resolved to 5 elements:\n    1) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka get_by_role(\"button\", name=\"Delete file\").first\n    2) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka get_by_role(\"button\", name=\"Delete file\").nth(1)\n    3) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka get_by_role(\"button\", name=\"Delete file\").nth(2)\n    4) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka get_by_role(\"button\", name=\"Delete file\").nth(3)\n    5) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka get_by_role(\"button\", name=\"Delete file\").nth(4)\n\nCall log:\nwaiting for locator(\"//mat-icon[@class='mat-icon notranslate rebrand-icon gray material-icons-outlined material-icons mat-ligature-font mat-icon-no-color' and text()=' delete']\")",
+      "time" : {
+        "start" : 1720455687565,
+        "stop" : 1720455696018,
+        "duration" : 8453
+      }
+    }, {
+      "uid" : "438b05fb42caa8ae",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.Error: Locator.click: Error: strict mode violation: locator(\"//mat-icon[@class='mat-icon notranslate rebrand-icon gray material-icons-outlined material-icons mat-ligature-font mat-icon-no-color' and text()=' delete']\") resolved to 4 elements:\n    1) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka get_by_role(\"button\", name=\"Delete file\").first\n    2) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka get_by_role(\"button\", name=\"Delete file\").nth(1)\n    3) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka get_by_role(\"button\", name=\"Delete file\").nth(2)\n    4) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka get_by_role(\"button\", name=\"Delete file\").nth(3)\n\nCall log:\nwaiting for locator(\"//mat-icon[@class='mat-icon notranslate rebrand-icon gray material-icons-outlined material-icons mat-ligature-font mat-icon-no-color' and text()=' delete']\")",
+      "time" : {
+        "start" : 1720455054058,
+        "stop" : 1720455060554,
+        "duration" : 6496
+      }
+    }, {
+      "uid" : "5c921d1c99b92240",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.Error: Locator.click: Error: strict mode violation: locator(\"//mat-icon[@class='mat-icon notranslate rebrand-icon gray material-icons-outlined material-icons mat-ligature-font mat-icon-no-color' and text()=' delete']\") resolved to 13 elements:\n    1) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-cell:nth-child(9) > .mat-focus-indicator\").first\n    2) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(3) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    3) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(4) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    4) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(5) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    5) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(6) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    6) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(7) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    7) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(8) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    8) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(9) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    9) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(10) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    10) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(11) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    ...\n\nCall log:\nwaiting for locator(\"//mat-icon[@class='mat-icon notranslate rebrand-icon gray material-icons-outlined material-icons mat-ligature-font mat-icon-no-color' and text()=' delete']\")",
+      "time" : {
+        "start" : 1720449414478,
+        "stop" : 1720449421324,
+        "duration" : 6846
+      }
+    }, {
+      "uid" : "1b0780c8c204978f",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.Error: Locator.click: Error: strict mode violation: locator(\"//mat-icon[@class='mat-icon notranslate rebrand-icon gray material-icons-outlined material-icons mat-ligature-font mat-icon-no-color' and text()=' delete']\") resolved to 12 elements:\n    1) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-cell:nth-child(9) > .mat-focus-indicator\").first\n    2) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(3) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    3) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(4) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    4) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(5) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    5) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(6) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    6) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(7) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    7) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(8) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    8) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(9) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    9) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(10) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    10) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(11) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    ...\n\nCall log:\nwaiting for locator(\"//mat-icon[@class='mat-icon notranslate rebrand-icon gray material-icons-outlined material-icons mat-ligature-font mat-icon-no-color' and text()=' delete']\")",
+      "time" : {
+        "start" : 1720448939721,
+        "stop" : 1720448947250,
+        "duration" : 7529
+      }
+    }, {
+      "uid" : "a6b8790e3961d395",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.Error: Locator.click: Error: strict mode violation: locator(\"//mat-icon[@class='mat-icon notranslate rebrand-icon gray material-icons-outlined material-icons mat-ligature-font mat-icon-no-color' and text()=' delete']\") resolved to 11 elements:\n    1) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-cell:nth-child(9) > .mat-focus-indicator\").first\n    2) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(3) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    3) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(4) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    4) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(5) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    5) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(6) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    6) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(7) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    7) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(8) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    8) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(9) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    9) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(10) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    10) <mat-icon role=\"img\" aria-hidden=\"true\" data-mat-icon-type…> delete</mat-icon> aka locator(\"mat-row:nth-child(11) > mat-cell:nth-child(9) > .mat-focus-indicator\")\n    ...\n\nCall log:\nwaiting for locator(\"//mat-icon[@class='mat-icon notranslate rebrand-icon gray material-icons-outlined material-icons mat-ligature-font mat-icon-no-color' and text()=' delete']\")",
+      "time" : {
+        "start" : 1720437958771,
+        "stop" : 1720437965585,
+        "duration" : 6814
+      }
+    }, {
+      "uid" : "e155576d1c6e607d",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.TimeoutError: Locator.click: Timeout 30000ms exceeded.\nCall log:\nwaiting for locator(\"//mat-icon[@class='mat-icon notranslate rebrand-icon gray material-icons-outlined material-icons mat-ligature-font mat-icon-no-color' and text()=' delete']\")",
+      "time" : {
+        "start" : 1720431276035,
+        "stop" : 1720431313356,
+        "duration" : 37321
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a19a1af8a03886.json",
+  "parameterValues" : [ ]
+}

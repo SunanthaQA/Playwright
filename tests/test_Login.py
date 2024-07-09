@@ -9,7 +9,8 @@ from tests.validationtexts import ValidationTexts
 from utils import ExcelUtils
 
 
-#@allure.feature('Login Tests')
+# @allure.feature('Login Tests')
+@allure.severity(allure.severity_level.BLOCKER)
 @allure.story('Login with valid credentials')
 def test_login_with_valid_credentials(setup_and_teardown) -> None:
     page = setup_and_teardown
@@ -32,6 +33,7 @@ def test_login_with_valid_credentials(setup_and_teardown) -> None:
             pytest.fail(f"Failed to login with valid credentials: {str(e)}")
 
 
+@allure.severity(allure.severity_level.CRITICAL)
 @allure.story('Login with invalid email address')
 def test_login_with_invalid_email_address(setup_and_teardown) -> None:
     page = setup_and_teardown
@@ -54,6 +56,7 @@ def test_login_with_invalid_email_address(setup_and_teardown) -> None:
             pytest.fail(f"Failed to handle invalid email address: {str(e)}")
 
 
+@allure.severity(allure.severity_level.NORMAL)
 @allure.story('Login with invalid password')
 def test_login_with_invalid_password(setup_and_teardown) -> None:
     page = setup_and_teardown
@@ -76,6 +79,7 @@ def test_login_with_invalid_password(setup_and_teardown) -> None:
             pytest.fail(f"Failed to handle invalid password: {str(e)}")
 
 
+@allure.severity(allure.severity_level.TRIVIAL)
 @allure.story('Required validation')
 def test_required_validation(setup_and_teardown) -> None:
     page = setup_and_teardown
@@ -85,8 +89,8 @@ def test_required_validation(setup_and_teardown) -> None:
             login_p.click_login_button()
             email_error_text, password_error_text = login_p.check_login_validation_message()
             assert (
-                email_error_text == ValidationTexts.EMAIL_REQUIRED and
-                password_error_text == ValidationTexts.PASSWORD_REQUIRED
+                    email_error_text == ValidationTexts.EMAIL_REQUIRED and
+                    password_error_text == ValidationTexts.PASSWORD_REQUIRED
             )
             attach_screenshot(page, "Required Validation Success")
         except (AssertionError, Error) as e:

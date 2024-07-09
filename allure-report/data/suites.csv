@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jul 08 22:37:56 IST 2024","Mon Jul 08 22:37:56 IST 2024","481","tests","test_Login","","","","test_required_validation",""
+"passed","Mon Jul 08 22:38:34 IST 2024","Mon Jul 08 22:38:44 IST 2024","9858","tests","test_Upload_invoice","","","","test_verify_created_invoice_status",""
+"passed","Mon Jul 08 22:38:18 IST 2024","Mon Jul 08 22:38:28 IST 2024","9658","tests","test_Upload_invoice","","","","test_add_invoice",""
+"passed","Mon Jul 08 22:37:49 IST 2024","Mon Jul 08 22:37:50 IST 2024","962","tests","test_Login","","","","test_login_with_invalid_password",""
+"passed","Mon Jul 08 22:37:28 IST 2024","Mon Jul 08 22:37:29 IST 2024","1551","tests","test_Login","","","","test_login_with_valid_credentials",""
+"passed","Mon Jul 08 22:38:50 IST 2024","Mon Jul 08 22:39:01 IST 2024","11040","tests","test_Upload_invoice","","","","test_verify_invoice_delete_status",""
+"passed","Mon Jul 08 22:37:43 IST 2024","Mon Jul 08 22:37:44 IST 2024","930","tests","test_Login","","","","test_login_with_invalid_email_address",""

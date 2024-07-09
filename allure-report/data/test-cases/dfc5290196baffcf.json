@@ -1,0 +1,205 @@
+{
+  "uid" : "dfc5290196baffcf",
+  "name" : "test_verify_invoice_delete_status",
+  "fullName" : "tests.test_Upload_invoice#test_verify_invoice_delete_status",
+  "historyId" : "9060090de2a57dc8e145cf72124402e7",
+  "time" : {
+    "start" : 1720457833004,
+    "stop" : 1720457839961,
+    "duration" : 6957
+  },
+  "status" : "broken",
+  "statusMessage" : "RuntimeError: No active exception to reraise",
+  "statusTrace" : "setup_and_teardown = <Page url='https://www.tig-test.com/my-frs/frs-invoices'>\n\n    @allure.story('Delete created Invoice')\n    def test_verify_invoice_delete_status(setup_and_teardown) -> None:\n        page = setup_and_teardown\n        invoice_page = UploadInvoicePage(page)\n        credentials = {\n            'username': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Login\", 2, 1),\n            'password': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Login\", 2, 2)\n        }\n        invoice_number = ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Invoice\", 2, 1)\n    \n        with allure.step('Login and delete invoice'):\n            allure.attach(f\"Username: {credentials['username']}\", name=\"Input Username\",\n                          attachment_type=allure.attachment_type.TEXT)\n            allure.attach(f\"Password: {credentials['password']}\", name=\"Input Password\",\n                          attachment_type=allure.attachment_type.TEXT)\n            allure.attach(f\"Invoice Number: {invoice_number}\", name=\"Invoice Number\",\n                          attachment_type=allure.attachment_type.TEXT)\n            try:\n                invoice_page.login(credentials['username'], credentials['password'])\n                invoice_page.search_invoice(ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Invoice\", 2, 1))\n                time.sleep(3)\n                invoice_page.delete_invoice()\n                invoice_page.verify_deletion_message(ValidationTexts.SUCCESSFUL_INVOICE_DELETE)\n                attach_screenshot(page, \"Invoice Deletion Success\")\n            except (TimeoutError, Error, AssertionError) as e:\n                attach_screenshot(page, \"Invoice Deletion Failure\")\n                print(f\"Test 'verify_invoice_delete_status' failed: {e}\")\n>           raise\nE           RuntimeError: No active exception to reraise\n\ntests/test_Upload_invoice.py:106: RuntimeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1720457773129,
+      "stop" : 1720457773129,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_and_teardown",
+    "time" : {
+      "start" : 1720457827482,
+      "stop" : 1720457833001,
+      "duration" : 5519
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1720457773129,
+      "stop" : 1720457773129,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1720457773129,
+      "stop" : 1720457773129,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1720457773129,
+      "stop" : 1720457773129,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "RuntimeError: No active exception to reraise",
+    "statusTrace" : "setup_and_teardown = <Page url='https://www.tig-test.com/my-frs/frs-invoices'>\n\n    @allure.story('Delete created Invoice')\n    def test_verify_invoice_delete_status(setup_and_teardown) -> None:\n        page = setup_and_teardown\n        invoice_page = UploadInvoicePage(page)\n        credentials = {\n            'username': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Login\", 2, 1),\n            'password': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Login\", 2, 2)\n        }\n        invoice_number = ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Invoice\", 2, 1)\n    \n        with allure.step('Login and delete invoice'):\n            allure.attach(f\"Username: {credentials['username']}\", name=\"Input Username\",\n                          attachment_type=allure.attachment_type.TEXT)\n            allure.attach(f\"Password: {credentials['password']}\", name=\"Input Password\",\n                          attachment_type=allure.attachment_type.TEXT)\n            allure.attach(f\"Invoice Number: {invoice_number}\", name=\"Invoice Number\",\n                          attachment_type=allure.attachment_type.TEXT)\n            try:\n                invoice_page.login(credentials['username'], credentials['password'])\n                invoice_page.search_invoice(ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Invoice\", 2, 1))\n                time.sleep(3)\n                invoice_page.delete_invoice()\n                invoice_page.verify_deletion_message(ValidationTexts.SUCCESSFUL_INVOICE_DELETE)\n                attach_screenshot(page, \"Invoice Deletion Success\")\n            except (TimeoutError, Error, AssertionError) as e:\n                attach_screenshot(page, \"Invoice Deletion Failure\")\n                print(f\"Test 'verify_invoice_delete_status' failed: {e}\")\n>           raise\nE           RuntimeError: No active exception to reraise\n\ntests/test_Upload_invoice.py:106: RuntimeError",
+    "steps" : [ {
+      "name" : "Login and delete invoice",
+      "time" : {
+        "start" : 1720457833086,
+        "stop" : 1720457839960,
+        "duration" : 6874
+      },
+      "status" : "broken",
+      "statusMessage" : "RuntimeError: No active exception to reraise\n",
+      "statusTrace" : "  File \"/home/laptop-obs-156/PycharmProjects/Playwright_Walkthrought/tests/test_Upload_invoice.py\", line 106, in test_verify_invoice_delete_status\n    raise\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "932a5a8044914ebb",
+        "name" : "Input Username",
+        "source" : "932a5a8044914ebb.txt",
+        "type" : "text/plain",
+        "size" : 43
+      }, {
+        "uid" : "d86cfa5b7908f2d2",
+        "name" : "Input Password",
+        "source" : "d86cfa5b7908f2d2.txt",
+        "type" : "text/plain",
+        "size" : 22
+      }, {
+        "uid" : "72836bb211fcae8b",
+        "name" : "Invoice Number",
+        "source" : "72836bb211fcae8b.txt",
+        "type" : "text/plain",
+        "size" : 28
+      }, {
+        "uid" : "f8ac2c4ad1f71e31",
+        "name" : "Invoice Deletion Failure",
+        "source" : "f8ac2c4ad1f71e31.png",
+        "type" : "image/png",
+        "size" : 185813
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f7f26568c9fe1b9d",
+      "name" : "stdout",
+      "source" : "f7f26568c9fe1b9d.txt",
+      "type" : "text/plain",
+      "size" : 4317
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup_and_teardown::0",
+    "time" : {
+      "start" : 1720457839970,
+      "stop" : 1720457840071,
+      "duration" : 101
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Delete created Invoice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Upload_invoice"
+  }, {
+    "name" : "host",
+    "value" : "laptop-obs-156"
+  }, {
+    "name" : "thread",
+    "value" : "194284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_Upload_invoice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfc5290196baffcf.json",
+  "parameterValues" : [ ]
+}

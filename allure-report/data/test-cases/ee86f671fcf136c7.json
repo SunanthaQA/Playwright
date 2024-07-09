@@ -1,0 +1,199 @@
+{
+  "uid" : "ee86f671fcf136c7",
+  "name" : "test_add_invoice",
+  "fullName" : "tests.test_Upload_invoice#test_add_invoice",
+  "historyId" : "1c19e96ac1fa7f5df8070d5766cac19e",
+  "time" : {
+    "start" : 1720457975652,
+    "stop" : 1720457975763,
+    "duration" : 111
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'attachment'",
+  "statusTrace" : "setup_and_teardown = <Page url='https://www.tig-test.com/auth/login'>\n\n    @allure.story('Add Invoice')\n    def test_add_invoice(setup_and_teardown) -> None:\n        page = setup_and_teardown\n        invoice_page = UploadInvoicePage(page)\n        credentials = {\n            'username': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Login\", 2, 1),\n            'password': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Login\", 2, 2)\n        }\n        invoice_data = {\n            'invoice_number': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Invoice\", 2, 1),\n            'invoice_date': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Invoice\", 2, 2),\n            'invoice_amount': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Invoice\", 2, 3)\n        }\n    \n        with allure.step('Login and upload invoice'):\n            allure.attach(f\"Username: {credentials['username']}\", name=\"Input Username\",\n                          attachment_type=allure.attachment_type.TEXT)\n            allure.attach(f\"Password: {credentials['password']}\", name=\"Input Password\",\n                          attachment_type=allure.attachment_type.TEXT)\n            allure.attach(f\"Invoice Number: {invoice_data['invoice_number']}\", name=\"Invoice Number\",\n                          attachment_type=allure.attachment_type.TEXT)\n            allure.attach(f\"Invoice Amount: {invoice_data['invoice_amount']}\", name=\"Invoice Amount\",\n                          attachment_type=allure.attachment_type.TEXT)\n>           allure.attach(f\"Attachment: {invoice_data['attachment']}\", name=\"Attachment\",\n                          attachment_type=allure.attachment_type.TEXT)\nE           KeyError: 'attachment'\n\ntests/test_Upload_invoice.py:36: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1720457941846,
+      "stop" : 1720457941846,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1720457941846,
+      "stop" : 1720457941846,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1720457941846,
+      "stop" : 1720457941846,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1720457941846,
+      "stop" : 1720457941846,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_and_teardown",
+    "time" : {
+      "start" : 1720457969579,
+      "stop" : 1720457975650,
+      "duration" : 6071
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'attachment'",
+    "statusTrace" : "setup_and_teardown = <Page url='https://www.tig-test.com/auth/login'>\n\n    @allure.story('Add Invoice')\n    def test_add_invoice(setup_and_teardown) -> None:\n        page = setup_and_teardown\n        invoice_page = UploadInvoicePage(page)\n        credentials = {\n            'username': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Login\", 2, 1),\n            'password': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Login\", 2, 2)\n        }\n        invoice_data = {\n            'invoice_number': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Invoice\", 2, 1),\n            'invoice_date': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Invoice\", 2, 2),\n            'invoice_amount': ExcelUtils.get_cell_data(\"ExcelFiles/Testdata.xlsx\", \"Invoice\", 2, 3)\n        }\n    \n        with allure.step('Login and upload invoice'):\n            allure.attach(f\"Username: {credentials['username']}\", name=\"Input Username\",\n                          attachment_type=allure.attachment_type.TEXT)\n            allure.attach(f\"Password: {credentials['password']}\", name=\"Input Password\",\n                          attachment_type=allure.attachment_type.TEXT)\n            allure.attach(f\"Invoice Number: {invoice_data['invoice_number']}\", name=\"Invoice Number\",\n                          attachment_type=allure.attachment_type.TEXT)\n            allure.attach(f\"Invoice Amount: {invoice_data['invoice_amount']}\", name=\"Invoice Amount\",\n                          attachment_type=allure.attachment_type.TEXT)\n>           allure.attach(f\"Attachment: {invoice_data['attachment']}\", name=\"Attachment\",\n                          attachment_type=allure.attachment_type.TEXT)\nE           KeyError: 'attachment'\n\ntests/test_Upload_invoice.py:36: KeyError",
+    "steps" : [ {
+      "name" : "Login and upload invoice",
+      "time" : {
+        "start" : 1720457975762,
+        "stop" : 1720457975763,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusMessage" : "KeyError: 'attachment'\n",
+      "statusTrace" : "  File \"/home/laptop-obs-156/PycharmProjects/Playwright_Walkthrought/tests/test_Upload_invoice.py\", line 36, in test_add_invoice\n    allure.attach(f\"Attachment: {invoice_data['attachment']}\", name=\"Attachment\",\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f991dbfbb18dee4f",
+        "name" : "Input Username",
+        "source" : "f991dbfbb18dee4f.txt",
+        "type" : "text/plain",
+        "size" : 43
+      }, {
+        "uid" : "fa4696346e35ab9d",
+        "name" : "Input Password",
+        "source" : "fa4696346e35ab9d.txt",
+        "type" : "text/plain",
+        "size" : 22
+      }, {
+        "uid" : "3d036b55a4c7f2bc",
+        "name" : "Invoice Number",
+        "source" : "3d036b55a4c7f2bc.txt",
+        "type" : "text/plain",
+        "size" : 28
+      }, {
+        "uid" : "c49a7341f3c1715f",
+        "name" : "Invoice Amount",
+        "source" : "c49a7341f3c1715f.txt",
+        "type" : "text/plain",
+        "size" : 53
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup_and_teardown::0",
+    "time" : {
+      "start" : 1720457975774,
+      "stop" : 1720457975861,
+      "duration" : 87
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Add Invoice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Upload_invoice"
+  }, {
+    "name" : "host",
+    "value" : "laptop-obs-156"
+  }, {
+    "name" : "thread",
+    "value" : "195326-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_Upload_invoice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee86f671fcf136c7.json",
+  "parameterValues" : [ ]
+}

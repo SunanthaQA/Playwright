@@ -1,0 +1,307 @@
+{
+  "uid" : "95f0189c16b6b1bd",
+  "name" : "test_login_with_invalid_email_address",
+  "fullName" : "tests.test_Login#test_login_with_invalid_email_address",
+  "historyId" : "b74b4f88a364b39fee76f8334fda83af",
+  "time" : {
+    "start" : 1720458463924,
+    "stop" : 1720458464854,
+    "duration" : 930
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1720458442156,
+      "stop" : 1720458442156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1720458442156,
+      "stop" : 1720458442156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1720458442156,
+      "stop" : 1720458442156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_and_teardown",
+    "time" : {
+      "start" : 1720458449875,
+      "stop" : 1720458463921,
+      "duration" : 14046
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1720458442156,
+      "stop" : 1720458442156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_and_teardown",
+    "time" : {
+      "start" : 1720458477061,
+      "stop" : 1720458498815,
+      "duration" : 21754
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Perform login with invalid email address",
+      "time" : {
+        "start" : 1720458463978,
+        "stop" : 1720458464854,
+        "duration" : 876
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "15112fa04f5523d6",
+        "name" : "Input Username",
+        "source" : "15112fa04f5523d6.txt",
+        "type" : "text/plain",
+        "size" : 39
+      }, {
+        "uid" : "d10514df7b4813ee",
+        "name" : "Input Password",
+        "source" : "d10514df7b4813ee.txt",
+        "type" : "text/plain",
+        "size" : 22
+      }, {
+        "uid" : "a8134b2757574a7b",
+        "name" : "Invalid Email Login Success",
+        "source" : "a8134b2757574a7b.png",
+        "type" : "image/png",
+        "size" : 367548
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup_and_teardown::0",
+    "time" : {
+      "start" : 1720458464855,
+      "stop" : 1720458464931,
+      "duration" : 76
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_and_teardown::0",
+    "time" : {
+      "start" : 1720458508475,
+      "stop" : 1720458508567,
+      "duration" : 92
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Login with invalid email address"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Login"
+  }, {
+    "name" : "host",
+    "value" : "laptop-obs-156"
+  }, {
+    "name" : "thread",
+    "value" : "198564-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6be4975c74877358",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720458296732,
+        "stop" : 1720458297592,
+        "duration" : 860
+      }
+    }, {
+      "uid" : "cac628657547180d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720458067304,
+        "stop" : 1720458068127,
+        "duration" : 823
+      }
+    }, {
+      "uid" : "278ba6088cfb8d79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720457955265,
+        "stop" : 1720457956295,
+        "duration" : 1030
+      }
+    }, {
+      "uid" : "a3bb23e534ac213f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720457786173,
+        "stop" : 1720457787318,
+        "duration" : 1145
+      }
+    }, {
+      "uid" : "ab9c8fa9b05f3c77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720457488579,
+        "stop" : 1720457489747,
+        "duration" : 1168
+      }
+    }, {
+      "uid" : "e85def8906478466",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720455639495,
+        "stop" : 1720455640943,
+        "duration" : 1448
+      }
+    }, {
+      "uid" : "9074c16eea98c569",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720455004285,
+        "stop" : 1720455005163,
+        "duration" : 878
+      }
+    }, {
+      "uid" : "e655e5c572b27bcc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720449351647,
+        "stop" : 1720449352783,
+        "duration" : 1136
+      }
+    }, {
+      "uid" : "cb150cd4d8d28e42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720448875653,
+        "stop" : 1720448876298,
+        "duration" : 645
+      }
+    }, {
+      "uid" : "db3d5215721e296a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720437910315,
+        "stop" : 1720437910875,
+        "duration" : 560
+      }
+    }, {
+      "uid" : "ac27bc56f9e89c2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720431193607,
+        "stop" : 1720431194180,
+        "duration" : 573
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "95f0189c16b6b1bd.json",
+  "parameterValues" : [ ]
+}

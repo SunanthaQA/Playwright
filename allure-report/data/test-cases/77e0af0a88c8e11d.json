@@ -1,0 +1,293 @@
+{
+  "uid" : "77e0af0a88c8e11d",
+  "name" : "test_verify_created_invoice_status",
+  "fullName" : "tests.test_Upload_invoice#test_verify_created_invoice_status",
+  "historyId" : "0a6e48d5408d613d4f1eeb54af380e68",
+  "time" : {
+    "start" : 1720458514407,
+    "stop" : 1720458524265,
+    "duration" : 9858
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1720458442156,
+      "stop" : 1720458442156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1720458442156,
+      "stop" : 1720458442156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1720458442156,
+      "stop" : 1720458442156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_and_teardown",
+    "time" : {
+      "start" : 1720458508569,
+      "stop" : 1720458514405,
+      "duration" : 5836
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "delete_output_dir",
+    "time" : {
+      "start" : 1720458442156,
+      "stop" : 1720458442156,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login and verify created invoice status",
+      "time" : {
+        "start" : 1720458514529,
+        "stop" : 1720458524265,
+        "duration" : 9736
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dff1f35354bb3d42",
+        "name" : "Input Username",
+        "source" : "dff1f35354bb3d42.txt",
+        "type" : "text/plain",
+        "size" : 43
+      }, {
+        "uid" : "6a0f75cf3badfbbb",
+        "name" : "Input Password",
+        "source" : "6a0f75cf3badfbbb.txt",
+        "type" : "text/plain",
+        "size" : 22
+      }, {
+        "uid" : "b74957be4d5fa1b4",
+        "name" : "Invoice Number",
+        "source" : "b74957be4d5fa1b4.txt",
+        "type" : "text/plain",
+        "size" : 28
+      }, {
+        "uid" : "fd5c001cef43802c",
+        "name" : "Invoice Verification Success",
+        "source" : "fd5c001cef43802c.png",
+        "type" : "image/png",
+        "size" : 119529
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup_and_teardown::0",
+    "time" : {
+      "start" : 1720458524266,
+      "stop" : 1720458524346,
+      "duration" : 80
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Search created Invoice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Upload_invoice"
+  }, {
+    "name" : "host",
+    "value" : "laptop-obs-156"
+  }, {
+    "name" : "thread",
+    "value" : "198564-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_Upload_invoice"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "91c6a6277da6f2f",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed\nCall log:\nnavigating to \"https://www.tig-test.com/auth/login\", waiting until \"load\"",
+      "time" : {
+        "start" : 1720458324533,
+        "stop" : 1720458324533,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b7187d1041ff1f00",
+      "status" : "broken",
+      "statusDetails" : "RuntimeError: No active exception to reraise",
+      "time" : {
+        "start" : 1720458107347,
+        "stop" : 1720458114209,
+        "duration" : 6862
+      }
+    }, {
+      "uid" : "7bc790761fa4aaac",
+      "status" : "broken",
+      "statusDetails" : "RuntimeError: No active exception to reraise",
+      "time" : {
+        "start" : 1720457985320,
+        "stop" : 1720457997084,
+        "duration" : 11764
+      }
+    }, {
+      "uid" : "122ba3ac51411f68",
+      "status" : "broken",
+      "statusDetails" : "RuntimeError: No active exception to reraise",
+      "time" : {
+        "start" : 1720457815229,
+        "stop" : 1720457827392,
+        "duration" : 12163
+      }
+    }, {
+      "uid" : "c56ad2416c2d0332",
+      "status" : "broken",
+      "statusDetails" : "RuntimeError: No active exception to reraise",
+      "time" : {
+        "start" : 1720457533180,
+        "stop" : 1720457540386,
+        "duration" : 7206
+      }
+    }, {
+      "uid" : "816c5cda39642fc8",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.Error: LocatorAssertions.to_be_visible: Error: strict mode violation: locator(\"//div[contains(@class, 'text-truncate-w100') and contains(text(), 'invoicenumb1')]\") resolved to 5 elements:\n    1) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_label(\"Invoices\").get_by_text(\"invoicenumb1\").first\n    2) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_label(\"Invoices\").get_by_text(\"invoicenumb1\").nth(1)\n    3) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_label(\"Invoices\").get_by_text(\"invoicenumb1\").nth(2)\n    4) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_label(\"Invoices\").get_by_text(\"invoicenumb1\").nth(3)\n    5) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_label(\"Invoices\").get_by_text(\"invoicenumb1\").nth(4)\n\nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for locator(\"//div[contains(@class, 'text-truncate-w100') and contains(text(), 'invoicenumb1')]\")",
+      "time" : {
+        "start" : 1720455674947,
+        "stop" : 1720455682362,
+        "duration" : 7415
+      }
+    }, {
+      "uid" : "e6374b9c87c18a76",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.Error: LocatorAssertions.to_be_visible: Error: strict mode violation: locator(\"//div[contains(@class, 'text-truncate-w100') and contains(text(), 'invoicenumb1')]\") resolved to 4 elements:\n    1) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_text(\"invoicenumb1\").first\n    2) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_text(\"invoicenumb1\").nth(1)\n    3) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_text(\"invoicenumb1\").nth(2)\n    4) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_text(\"invoicenumb1\").nth(3)\n\nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for locator(\"//div[contains(@class, 'text-truncate-w100') and contains(text(), 'invoicenumb1')]\")",
+      "time" : {
+        "start" : 1720455041135,
+        "stop" : 1720455047967,
+        "duration" : 6832
+      }
+    }, {
+      "uid" : "8f13f7ad93e8be26",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.Error: LocatorAssertions.to_be_visible: Error: strict mode violation: locator(\"//div[contains(@class, 'text-truncate-w100') and contains(text(), 'invoicenumb1')]\") resolved to 3 elements:\n    1) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_text(\"invoicenumb1\").first\n    2) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_text(\"invoicenumb1\").nth(1)\n    3) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_text(\"invoicenumb1\").nth(2)\n\nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for locator(\"//div[contains(@class, 'text-truncate-w100') and contains(text(), 'invoicenumb1')]\")",
+      "time" : {
+        "start" : 1720449398694,
+        "stop" : 1720449405887,
+        "duration" : 7193
+      }
+    }, {
+      "uid" : "43c3b97b9cfcc9ff",
+      "status" : "broken",
+      "statusDetails" : "playwright._impl._errors.Error: LocatorAssertions.to_be_visible: Error: strict mode violation: locator(\"//div[contains(@class, 'text-truncate-w100') and contains(text(), 'invoicenumb1')]\") resolved to 2 elements:\n    1) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_text(\"invoicenumb1\").first\n    2) <div class=\"text-truncate-w100 ng-tns-c713-4\">invoicenumb1</div> aka get_by_text(\"invoicenumb1\").nth(1)\n\nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for locator(\"//div[contains(@class, 'text-truncate-w100') and contains(text(), 'invoicenumb1')]\")",
+      "time" : {
+        "start" : 1720448923977,
+        "stop" : 1720448931153,
+        "duration" : 7176
+      }
+    }, {
+      "uid" : "60a81bf4c258aada",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720437945076,
+        "stop" : 1720437952626,
+        "duration" : 7550
+      }
+    }, {
+      "uid" : "48a2e2b6dd54f55d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Locator expected to be visible\nActual value: <element(s) not found> \nCall log:\nLocatorAssertions.to_be_visible with timeout 5000ms\n  - waiting for locator(\"//div[contains(@class, 'text-truncate-w100') and contains(text(), 'invoicenumb1')]\")",
+      "time" : {
+        "start" : 1720431255093,
+        "stop" : 1720431268680,
+        "duration" : 13587
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "77e0af0a88c8e11d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,8 @@
+Invoice deletion failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//mat-icon[@class='mat-icon notranslate rebrand-icon gray material-icons-outlined material-icons mat-ligature-font mat-icon-no-color' and text()=' delete']")
+
+Test 'verify_invoice_delete_status' failed: Locator.click: Timeout 30000ms exceeded.
+Call log:
+waiting for locator("//mat-icon[@class='mat-icon notranslate rebrand-icon gray material-icons-outlined material-icons mat-ligature-font mat-icon-no-color' and text()=' delete']")
+
